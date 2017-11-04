@@ -8,13 +8,13 @@
         <header class="main-header">
             <nav class="main-navigation">
                 <a class="main-header-logo">
-                    <img src="img/index-logo.svg" width="368" height="153" alt="Логотип «Nёrds»">
+                    <img src="img/index-logo.svg" width="" height="" alt="Логотип «Nёrds»">
                 </a>
                 <ul class="site-navigation">
-					<li><a href="studio.html">Студия</a></li>
-					<li><a href="customers.html">Клиенты</a></li>
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
 					<li><a href="shop.html">Магазин</a></li>
-					<li><a href="contacts.html">Контакты</a></li>
+					<li><a href="#">Контакты</a></li>
 				</ul>
 				<div class="shop-cart">
 					<a class="shop-cart-icon" href="#">Корзина</a>
@@ -26,13 +26,68 @@
 			<section class="shop-banner">
 				<h1 class="shop-banner-title">Магазин готовых шаблонов</h1>
 			</section>
-			<aside class="">
-				<h3>Стоимость:</h3>
-				<h3>Сетка:</h3>
-				<h3>Особенности:</h3>
-				<a href="#" class="button shop-button">Узнать больше</a>
-			</aside>
 			
+			<!-- форма -->
+			<section class="column-left">
+				<h2 class="visually-hidden">Форма</h2>
+				<form action="#" method="post">
+					<div class="form-cost">
+						<h3>Стоимость:</h3>
+						<div class="controls-range">
+							<input type="range" min="0" max="15000">
+						</div>
+						<div class="cost-controls">
+							<label class="min-cost">от <input type="text" name="min-cost" value="0"></label>
+							<label class="max-cost">до <input type="text" name="max-cost" value="15000"></label>
+						</div>
+					</div>
+					<div class="form-grid">
+						<h3>Сетка:</h3>
+						<ul class="grid-radio">
+							<li>
+								<input type="radio" id="adaptive" value="adaptive" checked>
+								<label for="adaptive">Адаптивная</label>
+							</li>
+							<li>
+								<input type="radio" id="fixed" value="fixed">
+								<label for="fixed">Фиксированная</label>
+							</li>
+							<li>
+								<input type="radio" id="rubber" value="rubber">
+								<label for="rubber">Резиновая</label>
+							</li>
+						</ul>
+					</div>
+					<div class="form-feature">
+						<h3>Особенности:</h3>
+						<ul>
+							<li>
+								<input type="checkbox" id="feature-slider" value="slider" checked>
+								<label for="feature-slider">Слайдер</label>
+							</li>
+							<li>
+								<input type="checkbox" id="feature-advant" name="advantages" disabled>
+								<label class="label-disabled" for="feature-advant">Блок преимуществ</label>
+							</li>
+							<li>
+								<input type="checkbox" id="feature-news" name="news" value="news" checked>
+								<label for="feature-news">Новости</label>
+							</li>
+							<li>
+								<input type="checkbox" id="feature-gallery" name="gallery" value="gallery">
+								<label for="feature-gallery">Галерея</label>
+							</li>
+							<li>
+								<input type="checkbox" id="feature-basket" name="basket" value="basket">
+								<label for="feature-basket">Корзина</label>
+							</li>
+						</ul>
+					</div>
+					<button class="button form-button" type="submit">Показать</button>
+				</form>
+			</section>
+			
+			<!-- Галерея магазина -->
 			<section class="shop-gallery">
 				<h2 class="visually-hidden">Примеры готовых шаблонов</h2>
 				<div class="gallery-title">
@@ -49,46 +104,52 @@
 				<section>
 					<h4 class="visually-hidden">Sedona</h4>
 					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="" class="shop-img-item" alt="Sedona" width=""</div>
+					<div class="shop-img-wrapper"><img src="img/sedona.jpg" class="shop-img-item" alt="Sedona" width=""></div>
 				</section>
 				<!-- Пример Pink -->
 				<section>
 					<h4 class="visually-hidden">Pink</h4>
 					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="" class="shop-img-item" alt="Pink" width=""</div>
+					<div class="shop-img-wrapper"><img src="img/pink.jpg" class="shop-img-item" alt="Pink" width=""></div>
 				</section>	
 				<!-- Пример Barbershop -->
 				<section>
 					<h4 class="visually-hidden">Barbershop</h4>
 					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="" class="shop-img-item" alt="Barbershop" width=""</div>
+					<div class="shop-img-wrapper"><img src="img/barber.jpg" class="shop-img-item" alt="Barbershop" width=""></div>
 				</section>
 				<!-- Пример Mishka-->
 				<section>
 					<h4 class="visually-hidden">Mishka</h4>
 					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="" class="shop-img-item" alt="Mishka" width=""</div>
+					<div class="shop-img-wrapper"><img src="img/mishka.jpg" class="shop-img-item" alt="Mishka" width=""></div>
 				</section>
 				<!-- Пример Обучение-->
 				<section>
 					<h4 class="visually-hidden">Обучение</h4>
 					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="" class="shop-img-item" alt="Обучение" width=""</div>
+					<div class="shop-img-wrapper"><img src="img/learn.jpg" class="shop-img-item" alt="Обучение" width=""></div>
 				</section>
 				<!-- Пример Кваст-->
 				<section>
 					<h4 class="visually-hidden">Кваст</h4>
 					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="" class="shop-img-item" alt="Кваст" width=""</div>
+					<div class="shop-img-wrapper"><img src="img/kvast.jpg" class="shop-img-item" alt="Кваст" width=""></div>
 				</section>
 				<!-- Слайдер галереи -->
 				<div class="shop-slider">
 				</div>
 			</section>
-			<section class="map">
+			<!-- Карта -->
+			<section class="block-map">
 				<h2 class="visually-hidden">Карта</h2>
+				<div class="contacts-card">
+					<h3>Nёrds design studio</h3>
+					<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+					<p>тел. +7(812) 275-75-75</p>
+					<a href="#" class="button feedback">Напишите нам</a>
+				</div>
 			</section>
-			
 		</main>
 			
 		<footer>
