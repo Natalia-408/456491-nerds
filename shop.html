@@ -45,15 +45,15 @@
 						<h3>Сетка:</h3>
 						<ul class="grid-radio">
 							<li>
-								<input type="radio" id="adaptive" value="adaptive" checked>
+								<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
 								<label for="adaptive">Адаптивная</label>
 							</li>
 							<li>
-								<input type="radio" id="fixed" value="fixed">
+								<input type="radio" name="grid" id="fixed" value="fixed">
 								<label for="fixed">Фиксированная</label>
 							</li>
 							<li>
-								<input type="radio" id="rubber" value="rubber">
+								<input type="radio" name="grid" id="rubber" value="rubber">
 								<label for="rubber">Резиновая</label>
 							</li>
 						</ul>
@@ -97,47 +97,61 @@
 						<li><a href="#" class="sort-item">По типу</a></li>
 						<li><a href="#" class="sort-item">По названию</a></li>
 					</ul>
-					<div class="sorting-icon">
-					</div>
+					<ul class="sorting-icon">
+						<li><a href="#" class="sort-icon"><img src="descending.png" alt=""></a></li>
+						<li><a href="#" class="sort-icon"><img src="ascending.png" alt=""></a></li>
+					</ul>
 				</div>
-				<!-- Пример Sedona -->
-				<section>
-					<h4 class="visually-hidden">Sedona</h4>
-					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="img/sedona.jpg" class="shop-img-item" alt="Sedona" width=""></div>
-				</section>
+				<!-- Галерея товаров -->
+				<ul class="gallery">
+					<!-- Пример Sedona -->
+					<li  class="gallery-item">
+						<div class="gallery-wrapper">
+							<img src="img/sedona.jpg" class="shop-img-item" alt="Sedona" width="">
+							<div class="gallery-info"></div>
+						</div>
+					</li>
 				<!-- Пример Pink -->
-				<section>
-					<h4 class="visually-hidden">Pink</h4>
-					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="img/pink.jpg" class="shop-img-item" alt="Pink" width=""></div>
-				</section>	
+					<li  class="gallery-item">
+						<div class="gallery-wrapper">
+							<img src="img/pink.jpg" class="shop-img-item" alt="Pink" width="">
+							<div class="gallery-info"></div>
+						</div>
+					</li>	
 				<!-- Пример Barbershop -->
-				<section>
-					<h4 class="visually-hidden">Barbershop</h4>
-					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="img/barber.jpg" class="shop-img-item" alt="Barbershop" width=""></div>
-				</section>
+					<li  class="gallery-item">
+						<div class="gallery-wrapper">
+							<img src="img/barber.jpg" class="shop-img-item" alt="Barbershop" width="">
+							<div class="gallery-info"></div>
+						</div>
+					</li>
 				<!-- Пример Mishka-->
-				<section>
-					<h4 class="visually-hidden">Mishka</h4>
-					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="img/mishka.jpg" class="shop-img-item" alt="Mishka" width=""></div>
-				</section>
+					<li  class="gallery-item">
+						<div class="gallery-wrapper">
+							<img src="img/mishka.jpg" class="shop-img-item" alt="Mishka" width="">
+							<div class="gallery-info"></div>
+						</div>
+					</li>
+					
 				<!-- Пример Обучение-->
-				<section>
-					<h4 class="visually-hidden">Обучение</h4>
-					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="img/learn.jpg" class="shop-img-item" alt="Обучение" width=""></div>
-				</section>
+					<li  class="gallery-item">
+						<div class="gallery-wrapper">
+							<img src="img/learn.jpg" class="shop-img-item" alt="Обучение" width="">
+							<div class="gallery-info"></div>
+						</div>
+					</li>
+
 				<!-- Пример Кваст-->
-				<section>
-					<h4 class="visually-hidden">Кваст</h4>
-					<div class="shop-slider-item"></div>
-					<div class="shop-img-wrapper"><img src="img/kvast.jpg" class="shop-img-item" alt="Кваст" width=""></div>
-				</section>
+				<li  class="gallery-item">
+						<div class="gallery-wrapper">
+							<img src="img/kvast.jpg" class="shop-img-item" alt="Кваст" width="">
+							<div class="gallery-info"></div>
+						</div>
+					</li>
+					
 				<!-- Слайдер галереи -->
 				<div class="shop-slider">
+				
 				</div>
 			</section>
 			<!-- Карта -->
