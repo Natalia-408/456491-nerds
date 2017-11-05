@@ -34,7 +34,11 @@
 					<div class="form-cost">
 						<h3>Стоимость:</h3>
 						<div class="controls-range">
-							<input type="range" min="0" max="15000">
+							<div class="scale">
+								<div class="band"></div>
+							</div>
+							<div class="pointer pointer-min"></div>
+							<div class="pointer pointer-max"></div>
 						</div>
 						<div class="cost-controls">
 							<label class="min-cost">от <input type="text" name="min-cost" value="0"></label>
@@ -142,18 +146,24 @@
 					</li>
 
 				<!-- Пример Кваст-->
-				<li  class="gallery-item">
+					<li  class="gallery-item">
 						<div class="gallery-wrapper">
 							<img src="img/kvast.jpg" class="shop-img-item" alt="Кваст" width="">
 							<div class="gallery-info"></div>
 						</div>
 					</li>
-					
+				</ul>	
 				<!-- Слайдер галереи -->
 				<div class="shop-slider">
-				
+					<ul >
+						<li><a class="page-active" href="#">1</a></li>
+						<li><a class="page-passive"  href="#">2</a></li>
+						<li><a class="page-passive"  href="#">3</a></li>
+						<li><a class="page-passive"  href="#">Следующая</a></li>
+					</ul>
 				</div>
 			</section>
+			
 			<!-- Карта -->
 			<section class="block-map">
 				<h2 class="visually-hidden">Карта</h2>
