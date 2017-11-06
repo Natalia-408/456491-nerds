@@ -25,7 +25,7 @@
 			<!-- Шапка -->
 			<section class="main-banner">
 				<h1 class="visually-hidden">Студия «Nёrds»</h1>
-				<div>
+				<div class="container">
 					<p class="main-banner-title">Долго, дорого, скрупулезно.</p>
 					<p class="main-banner-info">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
 					<a href="#" class="button banner-button">Узнать больше</a>
@@ -36,6 +36,7 @@
 			<!-- Услуги -->
 			<section class="services">
 				<h2 class="visually-hidden">Услуги</h2>
+				<div class="container">
 				<ul class="services-list">
 					<li class="services-item">
 						<div class="img-wrapper"><img src="img/web.png" alt="Веб-сайты" width=""></div>
@@ -56,37 +57,40 @@
 						<a href="#" class="button service-presentation">Заказать</a>
 					</li>
 				</ul>
+				</div>
 			</section>
 			<!-- Реклама -->
 			<section class="advertising">
 				<h2 class="visually-hidden">Реклама</h2>
-				<div class="advertising-title">
-					<p class="advertising-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
-					<p class="advertising-info">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-					<p class="advertising-list">Выполняем заказы на разработку:</p>
-					<ul class="list-item">
-						<li>Веб-сайтов любой сложности</li>
-						<li>Мобильных приложений для iOS и Android</li>
-						<li>Слайдшоу и видео для корпоративных презентаций</li>
-					</ul>
-				</div>
-				<div class="advertising-info">
-					<img src="img/nerds-advert.png" class="img-nerds" alt="Nёrds" width="">
-					<p class="advertising-list">С 2004 года любим точность во всем:</p>
-					<table class="advertising-table">
-						<tr>
-						<th>146%</th><th>100%</th><th>50%</th>
-						</tr>
-						<tr>
-						<td>Уровень самоотдачи</td><td>Соблюдение сроков</td><td>Минимальная предоплата</td>
-						</tr>
-					</table>
+				<div class="container">
+					<div class="advertising-title">
+						<p class="advertising-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+						<p class="advertising-info">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+						<p class="advertising-list">Выполняем заказы на разработку:</p>
+						<ul class="list-item">
+							<li>Веб-сайтов любой сложности</li>
+							<li>Мобильных приложений для iOS и Android</li>
+							<li>Слайдшоу и видео для корпоративных презентаций</li>
+						</ul>
+					</div>
+					<div class="advertising-info">
+						<img src="img/nerds-advert.png" class="img-nerds" alt="Nёrds" width="">
+						<p class="advertising-list">С 2004 года любим точность во всем:</p>
+						<table class="advertising-table">
+							<tr>
+							<th>146%</th><th>100%</th><th>50%</th>
+							</tr>
+							<tr>
+							<td>Уровень самоотдачи</td><td>Соблюдение сроков</td><td>Минимальная предоплата</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</section>
 			<!-- Партнеры -->
 			<section class="references">
 				<h2 class="visually-hidden">Ссылки</h2>
-				<div class="refer-wrapper">
+				<div class="container">
 					<ul class="refer">
 						<li><a href="#" class="refer-img"><img src="img/refer-html.png" alt="html-academy" width=""></a></li>
 						<li><a href="#" class="refer-img"><img src="img/refer-barber.png" alt="barbershop" width=""></a></li>
@@ -97,8 +101,8 @@
 			</section>
 			<section class="block-map">
 				<h2 class="visually-hidden">Карта</h2>
+				<img src="img/map.jpg" alt="Карта"  width=""> 
 				<div class="container-map">
-					<img src="img/map.jpg" alt="Карта"  width=""> 
 					<div class="contacts-card">
 						<h3>Nёrds design studio</h3>
 						<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -122,5 +126,20 @@
 				<p class="footer-label2">Скидка 10% для друзей из социальных сетей</p>
 			</div>
 		</footer>
+		<!-- Форма обратной связи -->
+		<section class="form-main">
+			<div class="container-form">
+				<h2>Напишите нам</h2>
+				<form action="#" method="post">
+					<label for="name" class="label-style-name">Ваше имя:</label><input class="input-style" type="text" id="name" placeholder="Представьтесь, пожалуйста">
+					<label class="label-style-email">Ваш e-mail:</label><input class="input-style" type="text" id="email" placeholder="Для отправки ответа">
+					<p class="label-style-textarea">Текст письма:</p>
+					<textarea class="textarea-style">В свободной форме</textarea>
+					<input type="submit" class="button contacts" value="ОТПРАВИТЬ">
+				</form>
+			</div>
+		</section>
+		
+		
   </body>
 </html>
