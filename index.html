@@ -8,7 +8,7 @@
         <header class="main-header">
             <nav class="main-navigation">
                 <div class="container-logo">
-                    <img src="img/index-logo.svg" width="" height="" alt="Логотип «Nёrds»">
+                    <img src="img/index-logo.svg" width="160" height="65" alt="Логотип «Nёrds»">
                 </div>
                 <ul class="site-navigation">
 					<li><a href="#">Студия</a></li>
@@ -22,15 +22,39 @@
 			</nav>
 		</header>
 		<main>
-			<!-- Шапка -->
-			<section class="main-banner">
+			<!-- Слайдер -->
+			<section class="slider">
 				<h1 class="visually-hidden">Студия «Nёrds»</h1>
-				<div class="container">
-					<p class="main-banner-title">Долго, дорого, скрупулезно.</p>
-					<p class="main-banner-info">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-					<a href="#" class="button banner-button">Узнать больше</a>
+				<!-- Слайд 1 -->
+				<div class="slider-container">
+					<div class="text-container">
+						<h2 class="slider-title">Долго, дорого, скрупулезно.</h2>
+						<p class="slider-info">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+						<a href="#" class="button slider-button">Узнать больше</a>
+					</div>
+					<img src="img/nerds-index-slide1.png" class="slider-img" alt="Слайд1" width="760" height="431">
 				</div>
-				<div class="slider">
+				<!-- Слайд 2 -->
+				<div class="slider-container">
+				    <div class="text-container">	
+						<h2 class="slider-title">Любим математику как никто другой</h2>
+						<p class="slider-info">Никакого креатива, только математические формулы 
+для расчета идеальных пропорций.</p>
+						<a href="#" class="button slider-button">Узнать больше</a>
+					</div>
+					<img src="img/nerds-index-slide2.png" class="slider-img" alt="Слайд2" width="760" height="431">
+				</div>
+				<!-- Слайд 3 -->
+				<div class="slider-container">
+					<div class="text-container">
+						<h2 class="slider-title">Только ночь, только хардкор</h2>
+						<p class="slider-info">Работать днем, как все? Мы против этого.
+Ближе к полуночи работа только начинается.</p>
+						<a href="#" class="button slider-button">Узнать больше</a>
+					</div>
+					<img src="img/nerds-index-slide3.png" class="slider-img" alt="Слайд3" width="760" height="431">
+				</div>
+				<div class="slider-indicator">
 				</div>
 			</section>
 			<!-- Услуги -->
@@ -74,7 +98,7 @@
 						</ul>
 					</div>
 					<div class="advertising-info">
-						<img src="img/nerds-advert.png" class="img-nerds" alt="Nёrds" width="">
+						<img src="img/nerds-illustration.jpg" class="img-nerds" alt="Nёrds" width="360" height="208">
 						<p class="advertising-list">С 2004 года любим точность во всем:</p>
 						<table class="advertising-table">
 							<tr>
@@ -92,16 +116,16 @@
 				<h2 class="visually-hidden">Ссылки</h2>
 				<div class="container">
 					<ul class="refer">
-						<li><a href="#" class="refer-img"><img src="img/refer-html.png" alt="html-academy" width=""></a></li>
-						<li><a href="#" class="refer-img"><img src="img/refer-barber.png" alt="barbershop" width=""></a></li>
-						<li><a href="#" class="refer-img"><img src="img/refer-pink.png" alt="pink" width=""></a></li>
-						<li><a href="#" class="refer-img"><img src="img/refer-mishka.png" alt="mishka" width=""></a></li>
+						<li><a href="#" class="refer-img"><img src="img/logo-html.png" alt="html-academy" width="260" height="180"></a></li>
+						<li><a href="#" class="refer-img"><img src="img/logo-barber.png" alt="barbershop" width=""></a></li>
+						<li><a href="#" class="refer-img"><img src="img/logo-pink.png" alt="pink" width=""></a></li>
+						<li><a href="#" class="refer-img"><img src="img/logo-mishka.png" alt="mishka" width=""></a></li>
 					</ul>
 				</div>
 			</section>
 			<section class="block-map">
 				<h2 class="visually-hidden">Карта</h2>
-				<img src="img/map.jpg" alt="Карта"  width=""> 
+				<img src="img/map-marker.png" alt="Карта"  width="1440" height="416"> 
 				<div class="container-map">
 					<div class="contacts-card">
 						<h3>Nёrds design studio</h3>
@@ -109,6 +133,7 @@
 						<p>тел. +7(812) 275-75-75</p>
 						<a href="#" class="button feedback">Напишите нам</a>
 					</div>
+					<div class="map-marker"><div>
 				</div>
 			</section>
 		</main>
@@ -129,10 +154,18 @@
 		<!-- Форма обратной связи -->
 		<section class="form-main">
 			<div class="container-form">
-				<h2>Напишите нам</h2>
+				<h2 >Напишите нам</h2>
+				<div class="btn-form-close"></div>
+				
 				<form action="#" method="post">
-					<label for="name" class="label-style-name">Ваше имя:</label><input class="input-style" type="text" id="name" placeholder="Представьтесь, пожалуйста">
-					<label class="label-style-email">Ваш e-mail:</label><input class="input-style" type="text" id="email" placeholder="Для отправки ответа">
+					<div class="form-name">
+						<label for="name" class="label-style-name">Ваше имя:</label>
+						<input class="input-style" type="text" id="name" placeholder="Представьтесь, пожалуйста">
+					</div>
+					<div class="form-email">
+						<label class="label-style-email">Ваш e-mail:</label>
+						<input class="input-style" type="text" id="email" placeholder="Для отправки ответа">
+					</div>
 					<p class="label-style-textarea">Текст письма:</p>
 					<textarea class="textarea-style">В свободной форме</textarea>
 					<input type="submit" class="button contacts" value="ОТПРАВИТЬ">
