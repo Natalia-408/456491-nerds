@@ -3,6 +3,9 @@
     <head>
       <meta charset="utf-8">
       <title>Магазин Nёrds</title>
+	  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	  <link href="css/normalize.css" rel="stylesheet">
+	  <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <header class="main-header">
@@ -64,7 +67,7 @@
 					</div>
 					<div class="form-feature">
 						<h3>Особенности:</h3>
-						<ul>
+						<ul class="feature-list">
 							<li>
 								<input type="checkbox" id="feature-slider" value="slider" checked>
 								<label for="feature-slider">Слайдер</label>
@@ -96,7 +99,7 @@
 
 				<div class="gallery-title">
 					<h3>Сортировать</h3>
-					<ul class="sorting-title">
+					<ul class="sorting-list">
 						<li><a href="#" class="sort-item">По цене</a></li>
 						<li><a href="#" class="sort-item">По типу</a></li>
 						<li><a href="#" class="sort-item">По названию</a></li>
@@ -108,7 +111,7 @@
 					</ul>
 				</div>
 				<!-- Галерея товаров -->
-				<ul class="gallery">
+				<ul class="gallery-list">
 					<!-- Пример Sedona -->
 					<li  class="gallery-item">
 						<div class="gallery-wrapper">
@@ -181,7 +184,7 @@
 				</ul>	
 				<!-- Слайдер галереи -->
 				<div class="shop-slider">
-					<ul >
+					<ul class="shop-list">
 						<li><a class="page-active" href="#">1</a></li>
 						<li><a class="page-passive"  href="#">2</a></li>
 						<li><a class="page-passive"  href="#">3</a></li>
