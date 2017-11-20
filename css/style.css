@@ -30,8 +30,17 @@ a {
 .horiz-line {
 	width: 1160px;
 	height: 2px;
-	text-align: center;
+	margin: 0 auto;
 	background-color: #eeeeee;
+}
+.button {
+  display: block;
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
 }
 /* ---  Header   --- */
 .main-header {
@@ -59,6 +68,7 @@ a.main-header-logo:active {
 .sorting-list,
 .sorting-icon,
 .gallery-list,
+.social,
 .shop-list {
 	list-style: none;
 }
@@ -90,19 +100,7 @@ a.main-header-logo:active {
 	border-bottom: 2px solid #fb565a;
 }
 */
-.button {
-  font: inherit;
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
-  text-transform: uppercase;
-  border: none;
-}
-.button: hover,
-.button: focus,
-.button: active {
-	background-color: #ffffff;
-}
+
 
 /*-- Слайдер --  */
 
@@ -275,8 +273,65 @@ a.sort-item:hover {
 a.sort-item:active {
 	opacity: 1.0;
 }
-/*-- Каталог Форма --  */
-
+/*-- Галерея магазина --  */
+.hidden-info {
+	width: 360px;
+	height: 231px;
+	text-align: center;
+	background-color: #eeeeee;
+}
+a.gallery-title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.gallery-note {
+	color: #666666;
+}
+a.gallery-button {
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	text-transform: uppercase;
+	background-color: #fb565a;
+}
+a.gallery-button:hover {
+	background-color: #e74246;
+}
+a.gallery-button:active {
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	background-color: #d7373b;
+}
+.shop-list li{
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #000000;
+	background-color: #eeeeee;
+	border: 3px solid #dbdbdb;
+}
+.shop-list li:last-child{
+	width: 260px;
+}
+a.page-passive {
+	color: #000000;
+}
+a.page-passive:hover {
+	background-color: #dfdfdf;
+}
+a.page-passive:active{
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	background-color: #d5d5d5;
+}
 .new {   
 	text-transform: uppercase;
     background-image: url("img/bg.jpg");
