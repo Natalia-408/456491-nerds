@@ -8,7 +8,7 @@ body {
 	font-weight: 400;
     background-color: #ffffff;
 }
-h3 {
+.services-list h3 {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 30px;
@@ -230,6 +230,52 @@ a.refer-img:active {
 	font-weight: 700;
 	line-height: 36px;
 }
+/*-- Каталог Форма --  */
+.shop-banner h1 {
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+	background-color: #eeeeee;
+}
+.column-left h3,
+.gallery-title h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.05px;
+}
+.form-button {
+	width: 260px;
+	height: 50px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	background-color: #eeeeee;
+}
+.form-button:hover {
+	background-color: #dfdfdf;
+}
+.form-button:active {
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	background-color: #d5d5d5;
+}
+a.sort-item {
+	opacity: 0.3;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+a.sort-item:hover {
+	opacity: 0.6;
+}
+a.sort-item:active {
+	opacity: 1.0;
+}
+/*-- Каталог Форма --  */
 
 .new {   
 	text-transform: uppercase;
