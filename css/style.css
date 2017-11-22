@@ -107,15 +107,18 @@ a.main-header-logo:active {
 .slider {
 	background-color: #eeeeee;
 }
+.slider-container {
+	
+}
 .slider-title {
+	padding: 0;
+	margin: 0;
 	font-size: 55px;
     line-height: 55px;
 	font-weight: 500;
 	background-color: #eeeeee;
 }
-.slider-container {
 
-}
 a.slider-button {
 	width: 240px;
 	height: 50px;
@@ -337,4 +340,65 @@ a.page-passive:active{
     background-image: url("img/bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+}
+/* ----- Сеточные стили ----- */
+html,
+body {
+  min-width: 1440px;
+  min-height: 1750px;
+}
+/*
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+*/
+.main-navigation {
+	width: 1220px;
+	min-height: 412px;
+	margin: 0 auto;
+	padding-top: 49px; 
+	/* Временно для сетки */
+	min-height: 132px;
+}
+.slider {
+	min-height: 431px;
+}
+.slider-wrapper {
+	display: flex;
+	width: 1220px;
+	margin: 0 auto;
+}
+.slider-title {
+	padding-top: 81px;
+}
+.slider-info {
+	padding-top: 25px;
+	padding-bottom: 45px;
+}
+.slider-image {
+	width: 760px;
+	background-image: url("img/nerds-slide1.png");
+	
+}
+.slider-container {
+	width: 380px;
+}
+.services-container {
+	width: 1160px;
+	padding-top: 81px;
+	padding-left: 100px; 
+	min-height: 430px;
+}
+.services-list {
+	display: flex;
+	justify-content: space-between;
+	width: 1160px;
+
+
+}
+.services-item {
+	width: 300px;
+
 }
