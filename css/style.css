@@ -40,6 +40,7 @@ a {
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
+  border-radius: 2px;
   border: none;
 }
 /* ---  Header   --- */
@@ -188,6 +189,14 @@ a.service-presentation:active {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.advertising-table th {
+	font-size: 45px;
+	line-height: 65px;
+}
+.advertising-table td {
+	font-size: 16px;
+	line-height: 18px;
+}
 /*-- Партнеры  --  */
 a.refer-img {
 	opacity: 0.2;
@@ -198,7 +207,30 @@ a.refer-img:hover  {
 a.refer-img:active {
 	opacity: 0.1;
 }
-
+/*-- Модальное окно --  */
+.contacts-card h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.contacts-card p {
+	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+}
+a.feedback {
+	width: 220px;
+	height: 50px;
+	background-color: #fb565a;
+}
+a.feedback:hover {
+	background-color: #e74246;
+}
+a.feedback:active {
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	background-color: #d7373b;
+}
 /*-- Форма Напишите нам --  */
 .label-style {
 	font-size: 16px;
@@ -395,10 +427,129 @@ body {
 	display: flex;
 	justify-content: space-between;
 	width: 1160px;
-
-
 }
 .services-item {
 	width: 300px;
 
 }
+
+.advertising {
+	min-height: 530px;
+	width: 1220px;
+	margin: 0 auto;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 530px;
+}
+.advertising-title,
+.advertising-info {
+	padding: 0;
+	margin: 0;
+}
+.advertising-studio {
+	width: 708px;
+	margin-top: 75px;
+}
+.advertising-info {
+	margin-bottom: 40px;
+}
+.list-item li{
+	padding: 0;
+	padding-bottom: 20px;
+}
+.advertising-info {
+	padding-top: 40px;
+}
+.img-nerds {
+	margin-bottom: 20px;
+}
+.advertising-list {
+	text-align: center;
+	margin-bottom: 
+}
+.advertising-table {
+	width: 360px;
+}
+/* Партнеры */
+.references {
+	width: 1220px;
+	min-height: 183px;
+	margin: 0 auto;
+	margin-bottom: 81px;
+}
+.container-references {
+
+}
+.refer {
+	display: flex;
+	justify-content: space-between;
+	min-height: 183px;
+	padding: 0;
+	margin: 0 auto;
+}
+/* Подвал */
+.main-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 1220px;
+	margin: 0 auto;
+/*	margin-top: 81px; */
+	min-height: 217px;
+
+}
+.footer-social {
+	width: 300px;
+	margin-left: 140px;
+	min-height: 216px;
+}
+.footer-label p{
+	margin: 0;
+}
+.footer-label {
+	width: 780px;
+	min-height: 216px;
+}
+p.footer-label1 {
+	margin-top: 76px;
+}
+p.footer-label2 {
+	margin-top: 16px;
+}
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*  отключили мод. и форму  */
+.modalDialog {
+	display: none;
+}
+.container-form {
+	display: none;
+}
+/*
+.modalDialog {
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	display: none;
+	pointer-events: none;
+}
+.modalDialog:target {
+	display: block;
+	width: 320px;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	position: relative;
+	background-color: #ffffff;
+	padding: 51px;
+}
+*/
+
