@@ -1,4 +1,4 @@
-body {
+п»їbody {
     margin: 0;
     padding: 0;
     font-family: "Roboto", Arial, sans-serif;
@@ -94,7 +94,7 @@ a.main-header-logo:active {
 .site-navigation  a:active, .shop-cart  a:active {
 	color: #c7c5c5;
 }
-/* Текущая ссылка
+/* РўРµРєСѓС‰Р°СЏ СЃСЃС‹Р»РєР°
 .site-navigation,
 .shop-cart a{
 	color: #000000;
@@ -103,7 +103,7 @@ a.main-header-logo:active {
 */
 
 
-/*-- Слайдер --  */
+/*-- РЎР»Р°Р№РґРµСЂ --  */
 
 .slider {
 	background-color: #eeeeee;
@@ -132,7 +132,7 @@ a.slider-button:active {
 	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 	background-color: #d7373b;
 }
-/*-- Услуги --  */
+/*-- РЈСЃР»СѓРіРё --  */
 a.service-web {
 	width: 160px;
 	height: 50px;
@@ -179,7 +179,7 @@ a.service-presentation:active {
 	background-color: #e5a722;
 }
 
-/*-- Реклама  --  */
+/*-- Р РµРєР»Р°РјР°  --  */
 .advertising-title {
 	font-size: 45px;
 	font-weight: 500;
@@ -197,7 +197,7 @@ a.service-presentation:active {
 	font-size: 16px;
 	line-height: 18px;
 }
-/*-- Партнеры  --  */
+/*-- РџР°СЂС‚РЅРµСЂС‹  --  */
 a.refer-img {
 	opacity: 0.2;
 }
@@ -207,7 +207,7 @@ a.refer-img:hover  {
 a.refer-img:active {
 	opacity: 0.1;
 }
-/*-- Модальное окно --  */
+/*-- РњРѕРґР°Р»СЊРЅРѕРµ РѕРєРЅРѕ --  */
 .contacts-card h3 {
 	font-size: 18px;
 	font-weight: 700;
@@ -231,7 +231,7 @@ a.feedback:active {
 	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 	background-color: #d7373b;
 }
-/*-- Форма Напишите нам --  */
+/*-- Р¤РѕСЂРјР° РќР°РїРёС€РёС‚Рµ РЅР°Рј --  */
 .label-style {
 	font-size: 16px;
 	font-weight: 700;
@@ -263,7 +263,7 @@ a.feedback:active {
 	font-weight: 700;
 	line-height: 36px;
 }
-/*-- Каталог Форма --  */
+/*-- РљР°С‚Р°Р»РѕРі Р¤РѕСЂРјР° --  */
 .shop-banner h1 {
 	font-size: 55px;
 	font-weight: 500;
@@ -308,7 +308,7 @@ a.sort-item:hover {
 a.sort-item:active {
 	opacity: 1.0;
 }
-/*-- Галерея магазина --  */
+/*-- Р“Р°Р»РµСЂРµСЏ РјР°РіР°Р·РёРЅР° --  */
 .hidden-info {
 	width: 360px;
 	height: 231px;
@@ -373,7 +373,7 @@ a.page-passive:active{
     background-position: top center;
     background-repeat: no-repeat;
 }
-/* ----- Сеточные стили ----- */
+/* ----- РЎРµС‚РѕС‡РЅС‹Рµ СЃС‚РёР»Рё ----- */
 html,
 body {
   min-width: 1440px;
@@ -391,7 +391,7 @@ body {
 	min-height: 412px;
 	margin: 0 auto;
 	padding-top: 49px; 
-	/* Временно для сетки */
+	/* Р’СЂРµРјРµРЅРЅРѕ РґР»СЏ СЃРµС‚РєРё */
 	min-height: 132px;
 }
 .slider {
@@ -472,7 +472,7 @@ body {
 .advertising-table {
 	width: 360px;
 }
-/* Партнеры */
+/* РџР°СЂС‚РЅРµСЂС‹ */
 .references {
 	width: 1220px;
 	min-height: 183px;
@@ -489,7 +489,7 @@ body {
 	padding: 0;
 	margin: 0 auto;
 }
-/* Подвал */
+/* РџРѕРґРІР°Р» */
 .main-footer {
 	display: flex;
 	justify-content: space-between;
@@ -524,19 +524,54 @@ p.footer-label2 {
 	padding: 0;
 	margin: 0;
 }
+/*  РњР°РіР°Р·РёРЅ  */
 
-
-/*  отключили мод. и форму  */
+/*  РѕС‚РєР»СЋС‡РёР»Рё РјРѕРґ. Рё С„РѕСЂРјСѓ  */
 .modalDialog {
 	display: none;
 }
 .container-form {
 	display: none;
 }
+.shop-banner h1{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 110px;
+}
+.shop-wrapper {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+}
+.column-left {
+	width: 400px;
+}
+.shop-gallery {
+	width: 800px;
+}
+.gallery-list {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.gallery-item {
+	width: 360px;
+	margin-right: 20px;
+}
+.shop-list{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.shop-list li{
+	margin-right: 10px;
+}
 /*
 .modalDialog {
-	position: fixed;
-	top: 0;
+	position: absolute;
+	top: 75px;
+	left:140px;
 	z-index: 99999;
 	display: none;
 	pointer-events: none;
