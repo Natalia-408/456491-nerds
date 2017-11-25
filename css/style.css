@@ -253,7 +253,14 @@ a.refer-img:hover  {
 a.refer-img:active {
 	opacity: 0.1;
 }
-/*-- Модальное окно --  */
+/*-- Окно Напишите нам--  */
+.contacts-card {
+	width: 270px;
+	height: 260px;
+	padding-top: 50px;
+	padding-left: 50px;
+	background-color: #ffffff;
+}
 .contacts-card h3 {
 	font-size: 18px;
 	font-weight: 700;
@@ -356,9 +363,12 @@ a.sort-item:active {
 }
 /*-- Галерея магазина --  */
 .gallery-title h3 {
-	margin-left: 40px;
-}
+	margin-left: 0px;
 
+}
+ul.gallery-list {
+	padding: 0;
+}
 .hidden-info {
 	width: 360px;
 	height: 231px;
@@ -366,6 +376,8 @@ a.sort-item:active {
 	background-color: #eeeeee;
 }
 a.gallery-title {
+	display: inline-block;
+	padding-top: 32px;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
@@ -392,6 +404,13 @@ a.gallery-button:hover {
 a.gallery-button:active {
 	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 	background-color: #d7373b;
+}
+.shop-browser {
+	margin-bottom: -10px;
+}
+img.passive {
+	margin-bottom: -10px;
+	opacity: 0.12;
 }
 .shop-list li{
 	display: block;
@@ -545,6 +564,22 @@ body {
 	padding: 0;
 	margin: 0 auto;
 }
+/* Карта */
+.block-map {
+	position: relative;
+	width: 1440px;
+	margin: 0 auto;
+}
+.dialog {
+	position: absolute;
+	top: 52px;
+	left: 140px;
+}
+.map-marker {
+	position: absolute;
+	top: 90px;
+	left: 820px;
+}
 /* Подвал */
 .main-footer {
 	display: flex;
@@ -556,9 +591,25 @@ body {
 
 }
 .footer-social {
-	width: 300px;
-	margin-left: 140px;
+	display: -webkit-flex; 
+	-webkit-justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 380px;
 	min-height: 216px;
+
+}
+.social-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 78px;
+	height: 78px;
+	margin-right: 20px;
+	border-radius: 39px;
+	background-color: #e1e1e1;
+	
 }
 .footer-label p{
 	margin: 0;
@@ -609,7 +660,6 @@ p.footer-label2 {
 .gallery-list {
 	display: flex;
 	flex-wrap: wrap;
-
 }
 .gallery-item {
 	width: 360px;
