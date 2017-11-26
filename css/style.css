@@ -63,6 +63,7 @@ a.main-header-logo {
     display: block;
     width: 160px;
     height: 65px;
+	margin-left: 20px;
 }
 a.main-header-logo:hover {
     	opacity: 0.8;
@@ -85,14 +86,16 @@ a.main-header-logo:active {
 .shop-list {
 	list-style: none;
 }
-
+.main-header {
+	min-height: 132px;
+}
 .main-navigation {
 	display: flex;
 	align-items: space-between;
-	min-height: 132px;
+	min-height: 83px;
 }
 .logo-block {
-	width: 160px;
+	width: 180px;
 }
 .main-navigation-wrapper {
 	display: flex;
@@ -104,18 +107,23 @@ a.main-header-logo:active {
 	display: flex;
 	flex-wrap: wrap;
 	width: 700px;
-	
+	min-height: 83px;
+	margin: 0;
+	padding: 0;
 }
 .shop-cart  {
 	position: relative;
+	margin: 0;
+	padding: 0;
 	padding-left: 50px;
 }
 .shop-cart::before {
 	content: "";
 	position: absolute;
-	top: 37px;
+	top: 40px;
 	width: 16px;
 	height: 18px;
+	margin-left: -24px;
     background-image: url(" ../img/cart-icon.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -347,6 +355,12 @@ a.service-presentation:active {
 }
 
 /*-- Реклама  --  */
+.container-advertising {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
 .advertising-title {
 	font-size: 45px;
 	font-weight: 500;
@@ -355,6 +369,9 @@ a.service-presentation:active {
 .advertising-list {
 	font-weight: 700;
 	text-transform: uppercase;
+}
+.advertising-info {
+	width: 400px;
 }
 .advertising-table th {
 	font-size: 45px;
@@ -576,7 +593,7 @@ body {
 }
 */
 .main-navigation {
-	width: 1220px;
+	width: 1200px;
 	min-height: 65px;
 	margin: 0 auto;
 	padding-top: 49px; 
@@ -633,7 +650,7 @@ body {
 	width: 1220px;
 	margin: 0 auto;
 }
-.container {
+.container-advertising {
 	display: flex;
 	justify-content: space-between;
 	min-height: 530px;
