@@ -799,10 +799,87 @@ p.footer-label2 {
 	display: flex;
 	width: 1200px;
 	margin: 0 auto;
+	padding-top: 50px;
 }
 .column-left {
 	width: 400px;
 }
+.controls-range {
+	position: relative;
+	width: 260px;
+	height: 79px;
+	margin-top: 56px;
+	margin-bottom: 14px;
+	background-color: #f1f1f1;
+}
+.controls-range .scale {
+	position: absolute;
+	top: 38px;
+	left: 40px;
+	width: 198px;
+	height: 2px;
+
+	background: #cacbcb;
+}
+.controls-range .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 121px;
+	height: 2px;
+	
+	background: #00ca74;
+}
+.range-toggle {
+	position: absolute;
+	top: 30px;
+	left: 17px;
+	width: 4px;
+	height: 4px;
+
+	background: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+	cursor: pointer;
+}
+.range-toggle-min {
+  left: 17px;
+}
+
+.range-toggle-max {
+  left: 160px;
+}
+.controls-range label {
+	display: inline-block;
+	
+	font-size: 14px;
+	line-height: 38px;
+	vertical-align: top;
+	cursor: pointer;
+}
+.price-controls {
+
+}
+.price-controls .min-price,
+.price-controls .max-price {
+	display: inline-block;
+	width: 147px;
+
+}
+.price-controls input {
+	width: 80px;
+	height: 38px;
+	margin: 0;
+	color: inherit;
+	font: inherit;
+	text-align: center;
+	background-color: #f1f1f1;
+	border: none;
+	border-radius: 3px;
+}
+
+
 .shop-gallery {
 	width: 800px;
 }

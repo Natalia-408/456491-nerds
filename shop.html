@@ -38,14 +38,14 @@
 						<h3>Стоимость:</h3>
 						<div class="controls-range">
 							<div class="scale">
-								<div class="band"></div>
+								<div class="bar"></div>
 							</div>
-							<div class="pointer pointer-min"></div>
-							<div class="pointer pointer-max"></div>
+							<div class="range-toggle range-toggle-min"></div>
+							<div class="range-toggle range-toggle-max"></div>
 						</div>
-						<div class="cost-controls">
-							<label class="min-cost">ОТ <input type="text" name="min-cost" value="0"></label>
-							<label class="max-cost">ДО <input type="text" name="max-cost" value="15000"></label>
+						<div class="price-controls">
+							<label class="min-price">ОТ <input type="text" name="min-price" value="0"></label>
+							<label class="max-price">ДО <input type="text" name="max-price" value="15000"></label>
 						</div>
 					</div>
 					<div class="form-grid">
@@ -203,11 +203,13 @@
 			<section class="block-map">
 				<h2 class="visually-hidden">Карта</h2>
 				<p>
-					<a href="#openModal"><img src="img/map.png" alt="Офис на карте"  width="1440" height="416"></a>
+					<img src="img/map.png" alt="Офис на карте"  width="1440" height="416">
 					
 				</p>
-				<!--<img src="img/map-marker.png" alt="Маркер карты"  width="367" height="190">--> 
-				<div id="openModal" class="modalDialog">
+				<div class="map-marker">
+					<img src="img/map-marker.png" alt="Маркер карты"  width="367" height="190">
+				</div>
+				<div class="dialog">
 					<div class="contacts-card">
 						<h3>Nёrds design studio</h3>
 						<p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
@@ -215,17 +217,19 @@
 						<a href="#" class="button feedback">Напишите нам</a>
 					</div>
 				</div>
-				<div class="map-marker"></div>
 			</section>
 		</main>
-			
+		
 		<footer>
 		<div  class="main-footer">
 			<div class="footer-social">
                 <ul class="social">
-					<li><a class="social-button" href="#">Вконтакте</a></li>
-					<li><a class="social-button" href="#">Фейсбук</a></li>
-					<li><a class="social-button" href="#">Инстаграм</a></li>
+					<li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span>
+					<img src="img/vk-icon.svg" alt="Вконтакте" width=""> </a></li>
+					<li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span>
+					<img src="img/fb-icon.svg" alt="Фейсбук" width=""></a></li>
+					<li><a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span>
+					<img src="img/insta-icon.svg" alt="Инстаграм" width=""></a></li>
 				</ul>
 			</div>
 			<div class="footer-label">
