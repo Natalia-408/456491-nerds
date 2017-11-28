@@ -92,10 +92,10 @@ a.main-header-logo:active {
 .main-navigation {
 	display: flex;
 	align-items: space-between;
-	min-height: 83px;
 }
 .logo-block {
 	width: 180px;
+
 }
 .main-navigation-wrapper {
 	display: flex;
@@ -105,6 +105,8 @@ a.main-header-logo:active {
 
 .site-navigation {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 	width: 700px;
 	min-height: 83px;
@@ -120,7 +122,7 @@ a.main-header-logo:active {
 .shop-cart::before {
 	content: "";
 	position: absolute;
-	top: 40px;
+	top: 36px;
 	width: 16px;
 	height: 18px;
 	margin-left: -24px;
@@ -130,8 +132,7 @@ a.main-header-logo:active {
 }
 .shop-cart a {
 	display: block;
-	padding: 32px 24px;
-	vertical-align: middle;
+ 	padding: 27px 24px; 
 	color: #000000; 
 	font-size: 16px;
     font-weight: 500;
@@ -140,7 +141,7 @@ a.main-header-logo:active {
 }
 .site-navigation a {
 	display: block;
-	padding: 32px 24px;
+	padding: 21px 24px;
 	vertical-align: middle;
 	color: #000000; 
 	font-size: 16px;
@@ -232,7 +233,7 @@ a.main-header-logo:active {
 
 .slider-item {
 	display: none;
-	padding: 78px 0 80px 0;
+	padding: 20px 0 40px 0;
 }
 /*
 .slider-item:nth-child(1) {
@@ -251,7 +252,7 @@ a.main-header-logo:active {
 }
 
 .slider-item:nth-child(3) {
-	background-image: url("../img/nerds-slide2.png");
+	background-image: url("../img/nerds-slide3.png");
 	background-repeat: no-repeat;
 	background-position: 100% 20px;
 }
@@ -285,7 +286,9 @@ a.main-header-logo:active {
 .slider-item h3 {
 	max-width: 600px;
 	margin: 0;
+	margin-top: 60px;
 	margin-bottom: 27px;
+	font-family: "Roboto", Arial, sans-serif;
   	font-size: 55px;
 	line-height: 55px;
 	font-weight: 500;
@@ -294,7 +297,7 @@ a.main-header-logo:active {
 .slider-item p {
 	max-width: 430px;
 	margin: 0;
-	margin-bottom: 38px;
+	/*margin-bottom: 38px;*/
 }
 a.slider-item-button {
 	width: 240px;
@@ -596,15 +599,14 @@ body {
 */
 .main-navigation {
 	width: 1200px;
-	min-height: 65px;
 	margin: 0 auto;
 	padding-top: 49px; 
 	/* Временно для сетки */
-	min-height: 132px;
+	min-height: 83px;
 }
 
 .slider {
-	min-height: 431px;
+	min-height: 412px;
 }
 .slider-wrapper {
 	display: flex;
@@ -615,14 +617,14 @@ body {
 	padding-top: 81px;
 }
 .slider-info {
-	padding-top: 25px;
-	padding-bottom: 45px;
+	padding-bottom: 42px;
 }
+/*
 .slider-image {
 	width: 760px;
 	background-image: url("../img/nerds-slide1.png");
 	
-}
+}*/
 .slider-container {
 	width: 380px;
 }
@@ -661,6 +663,15 @@ body {
 .advertising-info {
 	padding: 0;
 	margin: 0;
+}
+.list-item li {
+	display: block;
+}
+.list-item li::before {
+	content: "";
+	width: 25px;
+	height: 1px;
+	background-color: #ff0000;
 }
 .advertising-studio {
 	width: 708px;
@@ -844,7 +855,7 @@ p.footer-label2 {
 	cursor: pointer;
 }
 .range-toggle-min {
-  left: 17px;
+  left: 21px;
 }
 
 .range-toggle-max {
