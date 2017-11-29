@@ -510,47 +510,82 @@ a.sort-item:active {
 	opacity: 1.0;
 }
 
-
-/*-- Галерея магазина --  */
-.gallery-title h3 {
-	margin-left: 0px;
+/*-- Форма Сетка --  */
+.grid-radio {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
+.grid-radio li {
+	padding-bottom: 17px;
+}
+.slider-radio {
+	position: relative;
+	margin:0;
+	padding-left: 32px;
+}
+.slider-radio:hover,
+	.slider-radio:focus	{
+		opacity: 0.6;	
+}
+.slider-radio input[type="radio"] + .radio-indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 27px;
+	height: 27px;
+	background-image: url("../img/radio-off.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 1.0;
+}
+.slider-radio input[type="radio"]:checked + .radio-indicator {
+		background-image: url("../img/radio-on.svg");
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		opacity: 1.0;
+}
+
 /*-- Форма Особенности --  */
 .feature-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-		.feature-list li {
-			padding-bottom: 40px;
-		}
-		.slider-checkbox {
-			position: relative;
-			margin:0;
-			padding-left: 32px;
-		}
+.feature-list li {
+	padding-bottom: 17px;
+}
+.slider-checkbox {
+	position: relative;
+	margin:0;
+	padding-left: 32px;
+}
 .slider-checkbox:hover,
 	.slider-checkbox:focus	{
 		opacity: 0.6;	
-	}
-	.slider-checkbox input[type="checkbox"] + .checkbox-indicator {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 27px;
-		height: 27px;
-		background-image: url("../img/checkbox-off.svg");
-		background-repeat: no-repeat;
-		background-position: 0 0;
-		opacity: 1.0;
-	}
-	.slider-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+}
+.slider-checkbox input[type="checkbox"] + .checkbox-indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 27px;
+	height: 27px;
+	background-image: url("../img/checkbox-off.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 1.0;
+}
+.slider-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
 		background-image: url("../img/checkbox-on.svg");
 		background-repeat: no-repeat;
 		background-position: 0 0;
 		opacity: 1.0;
-	}
-		
+}
+/*-- Галерея магазина --  */
+
+.gallery-title h3 {
+	margin-left: 0px;
+}		
 ul.gallery-list {
 	padding: 0;
 }
@@ -946,6 +981,7 @@ p.footer-label2 {
 .gallery-item {
 	width: 360px;
 	margin-right: 20px;
+	margin-bottom: 34px;
 }
 .shop-list{
 	display: flex;
