@@ -671,7 +671,45 @@ a.sort-item:active {
 
 .gallery-title h3 {
 	margin-left: 0px;
-}		
+}
+.sorting-icon {
+	position: relative;
+}
+
+.sorting-icon a::before {
+	content: "";
+    position: absolute;
+	top: 8px;
+	left: 8px;
+	z-index: 1;
+    width: 18px;
+	height: 18px;
+    background-image: url("../img/icon-down-dir.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.6;
+}
+.sorting-icon a::after {
+	content: "";
+    position: absolute;
+	top: 8px;
+	left: 38px;
+	z-index: 1;
+    width: 18px;
+	height: 18px;
+    background-image: url("../img/icon-up-dir.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.2;
+}
+.sorting-icon a:hover {
+	opacity: 0.4;
+}
+.sorting-icon a:active,
+.sorting-icon a:focus {
+	opacity: 0.6;
+}
+		
 ul.gallery-list {
 	padding: 0;
 }
@@ -1095,6 +1133,7 @@ p.footer-label2 {
 }
 .gallery-list {
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .gallery-item {
