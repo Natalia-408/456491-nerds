@@ -113,6 +113,14 @@ a.main-header-logo:active {
 	margin: 0;
 	padding: 0;
 }
+
+a.nav-active::after {
+	content: "";
+	display: block;
+	height: 2px;
+	background: #fb565a;
+	bottom: -5px;
+}
 .shop-cart  {
 	position: relative;
 	margin: 0;
@@ -154,6 +162,9 @@ a.main-header-logo:active {
 }
 .site-navigation  a:active, .shop-cart  a:active {
 	color: #c7c5c5;
+}
+a.nav-active:hover {
+	color: #000000;
 }
 /* Текущая ссылка
 .site-navigation,
