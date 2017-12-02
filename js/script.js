@@ -1,11 +1,12 @@
 var link = document.querySelector(".feedback");
-    var popup = document.querySelector(".container-form");
-	var close = popup.querySelector(".btn-form-close");
-	var form = popup.querySelector("form");
-	var login = popup.querySelector("[name=login]");
-	var email = popup.querySelector("[name=email]");
-	var storage = localStorage.getItem("login");
-	
+var popup = document.querySelector(".container-form");
+var close = popup.querySelector(".btn-form-close");
+var form = popup.querySelector("form");
+var login = popup.querySelector("[name=login]");
+var email = popup.querySelector("[name=email]");
+var storage = localStorage.getItem("login");
+
+
     link.addEventListener("click", function (evt) {
 		evt.preventDefault();
 		popup.classList.add("container-form-show");
