@@ -731,10 +731,13 @@ ul.gallery-list {
 	background-color: #eeeeee;
 	overflow: auto;
 }
-.hidden-info-show {
-	display: block;
+.sedona {
+	display: none;
 }
 
+.gallery-wrapper:hover .hidden-info{
+	display: block;
+}
 a.gallery-title {
 	display: inline-block;
 	padding-top: 32px;

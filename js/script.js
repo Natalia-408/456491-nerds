@@ -6,7 +6,6 @@ var login = popup.querySelector("[name=login]");
 var email = popup.querySelector("[name=email]");
 var storage = localStorage.getItem("login");
 
-
     link.addEventListener("click", function (evt) {
 		evt.preventDefault();
 		popup.classList.add("container-form-show");
