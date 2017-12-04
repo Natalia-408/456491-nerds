@@ -8,7 +8,7 @@
     color: #0000000;
 	font-weight: 400;
     background-color: #ffffff;
-	/*background-image: url("../img/nerds-index.png");
+	/*background-image: url("../img/nerds-catalog.png");
 	background-repeat: no-repeat;
 	background-position: center 0;*/
 }
@@ -60,7 +60,6 @@ input[type="radio"].visually-hidden {
 /* ---  Header   --- */
 .main-header {
 	background-color: #eeeeee;
-/*	opacity: 0.4;*/
 }
 a.main-header-logo {
     background: url("img/nerds-logo.svg");
@@ -190,7 +189,7 @@ a.nav-active:hover {
 .slider {
 	position: relative;
     background-color: #eeeeee;
-/*	opacity: 0.4;*/
+
 }
 
 .slider-controls {
@@ -574,17 +573,24 @@ a.feedback:active {
 }
 .column-left h3,
 .gallery-title h3 {
-	margin-bottom: 10px;
+	margin-bottom: 13px;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
 	text-transform: uppercase;
 	letter-spacing: 0.05px;
 }
-.form-cost,
-.form-grid,
-.form-feature {
+.form-cost {
 	margin-bottom: 40px;
+}
+.form-grid {
+	margin-bottom: 25px;
+}
+.form-feature {
+	margin-bottom: 35px;
+}
+.form-grid h3 {
+	padding-top: 17px;
 }
 .form-button {
 	width: 260px;
@@ -619,6 +625,7 @@ a.sort-item:active {
 }
 
 /*-- Форма Сетка --  */
+
 .grid-radio {
 	list-style: none;
 	margin: 0;
@@ -661,7 +668,7 @@ a.sort-item:active {
 	padding: 0;
 }
 .feature-list li {
-	padding-bottom: 17px;
+	padding-bottom: 16px;
 }
 .slider-checkbox {
 	position: relative;
@@ -1089,13 +1096,17 @@ p.footer-label2 {
 	padding: 0;
 	margin: 0;
 	text-align: center;
+	padding-top: 60px;
 	padding-bottom: 110px;
 }
+
 .shop-wrapper {
 	display: flex;
 	width: 1200px;
 	margin: 0 auto;
-	padding-top: 50px;
+	padding: 30px 20px 0 20px;
+	box-sizing: border-box;
+
 }
 .column-left {
 	width: 400px;
@@ -1103,8 +1114,8 @@ p.footer-label2 {
 .controls-range {
 	position: relative;
 	width: 260px;
-	height: 79px;
-	margin-top: 36px;
+	height: 78px;
+	margin-top: 48px;
 	margin-bottom: 14px;
 	background-color: #f1f1f1;
 }
@@ -1160,13 +1171,14 @@ p.footer-label2 {
 .price-controls .min-price,
 .price-controls .max-price {
 	display: inline-block;
-	width: 147px;
+	width: 145px;
 
 }
 .price-controls input {
 	width: 80px;
 	height: 38px;
 	margin: 0;
+	padding-left: 5px;
 	color: inherit;
 	font: inherit;
 	text-align: center;
@@ -1177,7 +1189,7 @@ p.footer-label2 {
 
 
 .shop-gallery {
-	width: 800px;
+	width: 760px;
 }
 .gallery-list {
 	display: flex;
@@ -1236,13 +1248,13 @@ ul.shop-list {
 .gallery-title {
 	display: flex;
 	flex-wrap: wrap;
-	margin-right: 20px;
+/*	margin-right: 20px;*/
 }
 .sorting-list {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	margin-left: 240px;
+	margin-left: 215px;
 	padding-top: 5px;
 	width: 320px;
 }
