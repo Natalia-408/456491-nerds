@@ -541,6 +541,26 @@ a.refer-img:active {
 	height: 50px;
 	background-color: #fb565a;
 }
+/* Карта */
+.block-map {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.dialog {
+position: absolute;
+	width: 1200px;
+	top: 52px;	
+	left: 50%;
+margin-left: -600px;
+/*	left: 140px;*/
+}
+.map-marker {
+	position: absolute;
+	top: 90px;
+	left: 685px;
+}
 /*-- Карточка на карте  --*/
 p.input-name {
 	margin-top: 0px;
@@ -1025,23 +1045,7 @@ a.page-passive:active{
 	width: 2px;
     height: 52px;
 }
-/* Карта */
-.block-map {
-	position: relative;
-	width: 1440px;
-	margin: 0 auto;
-	margin-bottom: 30px;
-}
-.dialog {
-	position: absolute;
-	top: 52px;
-	left: 140px;
-}
-.map-marker {
-	position: absolute;
-	top: 90px;
-	left: 685px;
-}
+
 /* Подвал */
 .main-footer {
 	display: flex;
