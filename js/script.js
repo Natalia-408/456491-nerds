@@ -25,7 +25,7 @@ var storage = localStorage.getItem("login");
 	form.addEventListener("submit", function (evt) {
     if (!login.value || !email.value) {
       evt.preventDefault();
-      alert("Нужно ввести логин и пароль");
+      alert("Нужно ввести логин, почту и текст");
     } else {
       localStorage.setItem("login", login.value);
     }
