@@ -329,11 +329,11 @@ a.slider-item-button {
 }
 a.service-web {
 	width: 160px;
-	/*height: 50px;*/
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 18px;
 	background-color: #fb565a;
+	margin-bottom: 0;
 }
 a.service-web:hover {
 	background-color: #e74246;
@@ -1084,6 +1084,10 @@ a.social-button:active {
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #d7373b;
 	box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+a.social-button:active path
+{
+	fill: #e37376;
 }
 
 .footer-label p{
