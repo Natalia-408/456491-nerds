@@ -1046,6 +1046,8 @@ a.page-passive:active{
     height: 52px;
 }
 .frame-map {
+	width: 100%;
+	height: 416;
 	border:0;
 }
 /* Подвал */
