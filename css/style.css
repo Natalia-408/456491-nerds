@@ -1045,7 +1045,9 @@ a.page-passive:active{
 	width: 2px;
     height: 52px;
 }
-
+.frame-map {
+	border:0;
+}
 /* Подвал */
 .main-footer {
 	display: flex;
