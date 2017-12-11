@@ -34,6 +34,14 @@ input[type="radio"].visually-hidden {
 	margin: 0 auto;
 	background-color: #eeeeee;
 }
+.horizontal::after {
+	content: "";
+	display: block;
+	width: 1160px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #eeeeee;
+}
 .button {
 	display: block;
 	padding: 13px 0;
@@ -113,6 +121,7 @@ a.main-header-logo:active {
 	min-height: 65px;
 	margin: 0;
 	padding: 0;
+	letter-spacing: 0.1px;
 }
 
 a.nav-active::after {
@@ -386,14 +395,21 @@ a.service-presentation:active {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.minus {
-	display: inline-block;
-	margin-right: 10px;
-	width: 20px;
-	height: 2px;
-	vertical-align: middle;
-	background-color: #e74246;
+.list-item li {
+	position: relative;
+	padding-bottom: 22px;
+	padding-left: 37px;
 }
+.list-item li::before {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 2px;
+	left: 0;
+	top: 10px;
+	background-color: #fb565a;
+}
+
 .advertising-info {
 	width: 350px;
 }
@@ -511,8 +527,7 @@ a.refer-img:active {
 .label-style {
 	font-size: 16px;
 	font-weight: 700;
-	line-height: 18px;
-	margin-bottom: 10px;
+	line-height: 28px;
 }
 .input-style {
 	width: 360px;
@@ -778,12 +793,17 @@ a.sort-item:active {
 ul.gallery-list {
 	padding: 0;
 }
+.img-wrapper {
+	min-height: 576px;
+	background-color: #82b3d3;
+}
 .hidden-info {
 	display: none;
 	position: absolute;
 	bottom: 0;
 	width: 360px;
-	height: 231px;
+	min-height: 231px;
+	max-height: 576px;
 	text-align: center;
 	background-color: #eeeeee;
 	overflow: auto;
@@ -954,7 +974,7 @@ a.page-passive:active{
 }
 .advertising {
 	min-height: 530px;
-	width: 1220px;
+	width: 1200px;
 	margin: 0 auto;
 }
 .container-advertising {
@@ -967,14 +987,7 @@ a.page-passive:active{
 	padding: 0;
 	margin: 0;
 }
-/*
-.list-item li::before {
-	content: "";
-	width: 25px;
-	height: 1px;
-	background-color: #ff0000;
-}
-*/
+
 .advertising-studio {
 	width: 650px;
 	margin-top: 75px;
@@ -989,9 +1002,7 @@ a.page-passive:active{
 	padding: 0;
 	padding-bottom: 20px;
 }
-.list-item  li{
-	padding-bottom: 20px;
-}
+
 .advertising-info {
 	padding-top: 40px;
 }
@@ -1040,7 +1051,7 @@ a.page-passive:active{
 .main-footer {
 	display: flex;
 	justify-content: space-between;
-	width: 1220px;
+	width: 1200px;
 	margin: 0 auto;
 	min-height: 217px;
 
@@ -1051,6 +1062,7 @@ a.page-passive:active{
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
+	flex-wrap: wrap;
 	width: 370px;
 	min-height: 216px;
 	padding-left: 32px;

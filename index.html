@@ -5,7 +5,7 @@
 		<title>Nёrds</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
-		<link href="css/style.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<header class="main-header">
@@ -65,7 +65,7 @@
 				</div>
 			</section>
 			<!-- Услуги -->
-			<section class="services">
+			<section class="services horizontal">
 				<h2 class="visually-hidden">Услуги</h2>
 				<div class="services-container">
 					<ul class="services-list">
@@ -89,10 +89,9 @@
 						</li>
 					</ul>
 				</div>
-				<div class="horiz-line"></div>
 			</section>
 			<!-- Реклама -->
-			<section class="advertising">
+			<section class="advertising  horizontal">
 				<h2 class="visually-hidden">Реклама</h2>
 				<div class="container-advertising">
 					<div class="advertising-studio">
@@ -100,9 +99,9 @@
 						<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
 						<p class="advertising-list">Выполняем заказы на разработку:</p>
 						<ul class="list-item">
-							<li><span class="minus"></span>Веб-сайтов любой сложности</li>
-							<li><span class="minus"></span>Мобильных приложений для iOS и Android</li>
-							<li><span class="minus"></span>Слайдшоу и видео для корпоративных презентаций</li>
+							<li>Веб-сайтов любой сложности</li>
+							<li>Мобильных приложений для iOS и Android</li>
+							<li>Слайдшоу и видео для корпоративных презентаций</li>
 						</ul>
 					</div>
 					<div class="advertising-info">
@@ -122,10 +121,9 @@
 						</table>
 					</div>
 				</div>
-				<div class="horiz-line"></div>
 			</section>
 			<!-- Партнеры -->
-			<section class="references">
+			<section class="references horizontal">
 				<h2 class="visually-hidden">Ссылки</h2>
 				<div class="container-references">
 					<ul class="refer">
@@ -135,7 +133,7 @@
 						<li><a class="refer-img" href="#"><img src="img/logo-mishka.png" alt="mishka" width="260"  height="180"></a></li>
 					</ul>
 				</div>
-				<div class="horiz-line"></div>
+
 			</section>
 			<div class="block-map">
 				<h2 class="visually-hidden">Карта</h2>
@@ -179,7 +177,7 @@
 		
 			<div class="container-form">
 				<h2 class="form-title">Напишите нам</h2>
-				<div class="btn-form-close"></div>
+				<div class="btn-form-close"><span class="visually-hidden">Закрыть</span></div>
 				
 				<form action="#" method="post">
 					<div class="container-input">
@@ -189,18 +187,21 @@
 						</label>
 					</p>
 					<p class="input-name">
-						<label class="label-style">Ваш e-mail:<br>
+						<label class="label-style">Ваш e-mail:
 						<input class="input-style" type="text" id="user-email" name="email" placeholder="Для отправки ответа" required>
 						</label>
 					</p>
 					</div>
-					<p class="label-style">Текст письма:</p>
-					<textarea class="textarea-style" required>В свободной форме</textarea>
+					<p>
+						<label class="label-style">Текст письма:<br>
+						<textarea class="textarea-style" required>В свободной форме</textarea>
+						</label>
+					</p>
 					<input type="submit" class="button contacts" value="ОТПРАВИТЬ">
 				</form>
 			</div>
 		<script src="js/script.js"> </script> 
 	
 	
-  </body>
+	</body>
 </html>
