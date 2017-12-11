@@ -255,7 +255,7 @@ a.nav-active:hover {
 .slider-item {
 	display: none;
 	min-height: 393px;
-	padding: 10px 0 10px 0;
+	padding: 15px 0 10px 0;
 }
 /*
 .slider-item:nth-child(1) {
@@ -793,9 +793,13 @@ a.sort-item:active {
 ul.gallery-list {
 	padding: 0;
 }
-.img-wrapper {
-	min-height: 576px;
-	background-color: #82b3d3;
+.img-wrapper:nth-child(2) {
+	min-height: 146px;
+	background-color: #00ca74;
+}
+.img-wrapper:last-child {
+	min-height: 146px;
+	background-color: #efc849;
 }
 .hidden-info {
 	display: none;
