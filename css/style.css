@@ -44,7 +44,7 @@ input[type="radio"].visually-hidden {
 }
 .button {
 	display: block;
-	padding: 13px 0;
+	padding: 14px 0;
 	font: inherit;
 	text-align: center;
 	color: #ffffff;
@@ -255,7 +255,7 @@ a.nav-active:hover {
 .slider-item {
 	display: none;
 	min-height: 393px;
-	padding: 15px 0 10px 0;
+	padding: 15px 0 5px 0;
 }
 /*
 .slider-item:nth-child(1) {
@@ -329,7 +329,8 @@ a.slider-item-button {
 	background-color: #fb565a;
 }
 /*-- Услуги --  */
-.services-list h3 {
+.services-item h3 {
+	margin-top: 15px;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 30px;
@@ -391,13 +392,10 @@ a.service-presentation:active {
 	font-weight: 500;
 	line-height: 45px;
 }
-.advertising-list {
-	font-weight: 700;
-	text-transform: uppercase;
-}
+
 .list-item li {
 	position: relative;
-	padding-bottom: 22px;
+	padding-bottom: 24px;
 	padding-left: 37px;
 }
 .list-item li::before {
@@ -413,8 +411,11 @@ a.service-presentation:active {
 .advertising-info {
 	width: 350px;
 }
+.advertising-info .advertising-list {
+	text-align: right;
+}
 .advertising-table {
-	width: 330px;
+	width: 360px;
 	border: 0;
 	border-collapse: collapse;
 }
@@ -424,19 +425,20 @@ a.service-presentation:active {
 	height: 80px;
 	width: 110px;
 	padding-left: 0;
+	text-align: left;
 }
 .advertising-table td {
 	font-size: 16px;
 	line-height: 18px;
 }
 /*-- Партнеры  --  */
-a.refer-img {
+.refer a{
 	opacity: 0.2;
 }
-a.refer-img:hover  {
+.refer a:hover  {
 	opacity: 1.0;
 }
-a.refer-img:active {
+.refer a:active {
 	opacity: 0.1;
 }
 /*-- Окно Напишите нам--  */
@@ -567,7 +569,7 @@ a.refer-img:active {
 	width: 1200px;
 	top: 52px;	
 	left: 50%;
-	margin-left: -600px;
+	margin-left: -580px;
 }
 .map-marker {
 	position: absolute;
@@ -580,8 +582,8 @@ p.input-name {
 }
 .contacts-card {
 	width: 270px;
-	height: 260px;
-	padding-top: 50px;
+	height: 280px;
+	padding-top: 30px;
 	padding-left: 50px;
 	background-color: #ffffff;
 }
@@ -590,14 +592,17 @@ p.input-name {
 	font-weight: 700;
 	line-height: 30px;
 	text-transform: uppercase;
+	margin-bottom: 25px;
 }
 .contacts-card p {
 	font-size: 16px;
 	line-height: 18px;
 	color: #666666;
 }
+
 a.feedback {
 	width: 220px;
+	margin-top: 40px;
 	background-color: #fb565a;
 }
 a.feedback:hover {
@@ -793,14 +798,14 @@ a.sort-item:active {
 ul.gallery-list {
 	padding: 0;
 }
-.img-wrapper:nth-child(2) {
-	min-height: 146px;
-	background-color: #00ca74;
+.img-wrapper {
+	background-size: cover;
+	width: 300px;
+	height: 146px;
+	text-align: center;
+	background-color: #fb565a;
 }
-.img-wrapper:last-child {
-	min-height: 146px;
-	background-color: #efc849;
-}
+
 .hidden-info {
 	display: none;
 	position: absolute;
@@ -955,9 +960,9 @@ a.page-passive:active{
 	margin: 0 auto;
 }
 .services-container {
-	min-height: 440px;
+	min-height: 430px;
 	padding: 0 20px;	
-	padding-top: 55px;
+	padding-top: 60px;
 	margin-bottom: 10px;
 }
 .services-list {
@@ -971,7 +976,7 @@ a.page-passive:active{
 	margin-right: 100px;
 }
 .services-item  h3{
-	margin: 20px 0;
+	margin: 25px 0 20px;
 }
 .services-item  p{
 	margin: 20px 0 30px;
@@ -999,19 +1004,26 @@ a.page-passive:active{
 .advertising-studio p{
 	width: 650px;
 	margin-bottom: 35px;
-	
 }
+p.advertising-list {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
 .list-item {
 	margin: 0;
 	padding: 0;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .advertising-info {
 	padding-top: 40px;
+	margin-right: 10px;
 }
 .img-nerds {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+
 }
 
 /* Партнеры */
@@ -1069,7 +1081,7 @@ a.page-passive:active{
 	flex-wrap: wrap;
 	width: 370px;
 	min-height: 216px;
-	padding-left: 32px;
+	padding-left: 20px;
 }
 .social-button {
 	display: flex;
@@ -1103,13 +1115,13 @@ a.social-button:active path
 .footer-label {
 	width: 780px;
 	min-height: 216px;
-	margin-right: 10px;
+	margin-right: 0;
 }
 p.footer-label1 {
-	margin-top: 43px;
+	margin-top: 35px;
 }
 p.footer-label2 {
-	margin-top: 12px;
+	margin-top: 10px;
 }
 .social {
 	display: flex;
