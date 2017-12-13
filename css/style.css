@@ -1271,21 +1271,39 @@ p.footer-label2 {
 }
 .browser {
 	position: absolute;
-	top: 12px;
+	top: 14px;
 	width: 240px;
 	/*box-sizing: border-box;*/
 	height: 25px;
 	font-size: 0;
-	padding-left: 12px;
+	padding-left: 40px;
 	padding-top: -10px;
 }
- .browser > span {
+ .browser span {
 	display: inline-block;
 	background-color: #ffffff;
-	width: 10px;
-	height: 10px;
+	width: 14px;
+	height: 14px;
 	border-radius: 50%;
-	margin-right: 7px;
+
+}
+.browser span::before {
+	content: "";
+	position: absolute;
+	left: 16px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+.browser span::after {
+	content: "";
+	position: absolute;
+	left: 60px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #ffffff;
 }
 .gallery-wrapper:hover {
 	background-color: #4d4d4d;
