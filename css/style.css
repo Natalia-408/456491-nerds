@@ -980,7 +980,7 @@ a.page-passive:active{
 .services-list {
 	display: flex;
 	justify-content: flex-start;
-	min-width: 1200px;
+	min-width: 1160px;
 	padding: 0;
 }
 .services-item {
